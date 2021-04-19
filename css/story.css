@@ -54,8 +54,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  top: 100px;
-  left: 100px;
+  top: 50%;
+  left: 50%;
 }
 
 .story_textbox h5 {
