@@ -5,7 +5,7 @@
   width: 100%;
   top: 0px;
   position: absolute;
-  animation: background 3s ease-in-out forwards;
+  animation: background 2s ease-in-out forwards;
 }
 .loader {
   border: 10px solid #f3f3f3;
