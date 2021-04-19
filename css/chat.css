@@ -24,8 +24,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  animation: animation_left 1s ease-out forwards;
 }
-
 .chat_sh_content {
   margin-left: 10px;
   width: 60px;
@@ -60,6 +60,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  animation: animation_right 1s ease-out forwards;
 }
 
 .chat_jn_content {
@@ -128,4 +129,24 @@
 
 .chat_typing input::placeholder {
   opacity: 0.7;
+}
+
+@keyframes animation_left {
+  from {
+    opacity: 0;
+    transform: translatex(-80px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animation_right {
+  from {
+    opacity: 0;
+    transform: translatex(80px);
+  }
+  to {
+    opacity: 1;
+  }
 }
