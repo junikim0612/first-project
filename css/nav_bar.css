@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 20px 40px;
+  margin: 0px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav {
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.nav_btn a {
+  color: white;
+}
+
+.nav_btn i {
+  animation: nav_bar 0.8s ease-in-out forwards;
+}
+
+@keyframes nav_bar {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

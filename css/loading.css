@@ -1,0 +1,40 @@
+#background {
+  background-color: rgb(235, 233, 145);
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  position: absolute;
+  animation: background 3s ease-in-out forwards;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid lightcoral;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1.5s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes background {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

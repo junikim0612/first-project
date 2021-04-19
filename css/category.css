@@ -1,0 +1,26 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category_column i {
+  padding: 0px 5px;
+}
+
+.category_column h2 {
+  margin-left: 40px;
+}
+
+.category2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category_icon i,
+.category2 i {
+  color: black;
+}

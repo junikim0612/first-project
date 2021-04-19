@@ -1,0 +1,37 @@
+.setting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  color: rgb(87, 80, 80);
+  border-bottom: 1px solid rgb(207, 204, 204);
+  margin: 7px 0px;
+}
+
+.setting i {
+  margin-right: 13px;
+  padding-left: 10px;
+}
+
+.setting:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting:nth-child(3) > span {
+  padding-right: 10px;
+  opacity: 0.6;
+}
+
+.setting:hover {
+  background-color: lightcoral;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  box-shadow: -3px 3px 20px -6px rgb(104, 22, 124);
+}
+
+.setting_version span {
+  margin-left: -6px;
+}

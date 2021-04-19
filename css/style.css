@@ -1,0 +1,32 @@
+@import "status_bar.css";
+@import "login.css";
+@import "varible.css";
+@import "category.css";
+@import "profile.css";
+@import "nav_bar.css";
+@import "anniversary.css";
+@import "chat.css";
+@import "story.css";
+@import "more.css";
+@import "user_component.css";
+@import "icon.css";
+@import "no-mobile.css";
+@import "settings.css";
+@import "loading.css";
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  margin: 0px;
+}
+
+main {
+  padding: 12px;
+  font-family: initial;
+}
+
+ul {
+  list-style: none;
+}

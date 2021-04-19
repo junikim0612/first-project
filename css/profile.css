@@ -1,0 +1,115 @@
+.search {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: end;
+  border: 2px solid white;
+  margin-bottom: 40px;
+}
+
+.search i {
+  opacity: 0.5;
+}
+
+.profile_column img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_column {
+  display: flex;
+}
+
+.profile_column:nth-child(2) {
+  align-items: center;
+}
+
+.profile_name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 22px;
+}
+
+.profile_dots div:first-child,
+.profile_dots div:nth-child(7) {
+  background-color: rgb(138, 76, 119);
+  border: none;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin: 0px 9px;
+  animation: dots 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+
+.profile_dots i {
+  color: gray;
+  animation: heartbeat 3s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.profile_dots div:nth-child(2),
+.profile_dots div:nth-child(6) {
+  background-color: rgb(138, 76, 119);
+  border: none;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  margin: 0px 9px;
+  animation: dots 2s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.profile_dots div:nth-child(3),
+.profile_dots div:nth-child(5) {
+  background-color: rgb(138, 76, 119);
+  border: none;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  margin: 0px 9px;
+  animation: dots 3s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes dots {
+  0% {
+    background-color: gray;
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    background-color: rgb(177, 31, 145);
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    background-color: gray;
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    color: gray;
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    color: tomato;
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    color: gray;
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
