@@ -15,7 +15,7 @@
 @import "loading.css";
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: initial;
   font-weight: 600;
   background-color: var(--main-bg-color);
   height: 100vh;
@@ -24,7 +24,6 @@ body {
 
 main {
   padding: 12px;
-  font-family: initial;
 }
 
 ul {
